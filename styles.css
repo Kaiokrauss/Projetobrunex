@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização geral */
+body {
+    background-color: #ffffff;
+    color: #4e4e4e;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 41px;
+    text-align: center;
+}
+
+/* Estilo dos produtos */
+.produto {
+    display: inline-block;
+    background: #ffffff;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(255, 0, 0, 0.356);
+    transition: transform 0.3s ease-in-out;
+}
+
+.produto:hover {
+    transform: scale(1.10);
+}
+
+.produto img {
+    height: 200px;
+    width: auto;
+    border-radius: 12px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #5c5c5c;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
